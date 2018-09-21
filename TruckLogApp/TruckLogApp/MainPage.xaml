@@ -9,6 +9,19 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBox x:Name="businessNameText" HorizontalAlignment="Left" Margin="216,83,0,0" Text=" " VerticalAlignment="Top" Height="54" Width="242"/>
+        <TextBox x:Name="phoneNumberText" HorizontalAlignment="Left" Margin="216,167,0,0" Text="(***)-***-****" VerticalAlignment="Top" Height="54" Width="242"/>
+        <TextBox x:Name="ratePerWeightText" HorizontalAlignment="Center" Margin="0,83,0,0" Text="0.00" VerticalAlignment="Top" Height="54" Width="242"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,167,0,0" Text="TextBox" VerticalAlignment="Top" Height="54" Width="242"/>
+        <TextBox HorizontalAlignment="Left" Margin="1060,167,0,0" Text="TextBox" VerticalAlignment="Top" Height="54" Width="242"/>
+        <TextBlock x:Name="ratePerWeightBlock"  HorizontalAlignment="Left" Margin="486,83,0,0" Text="Rate (Weight$): " TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="124"/>
+        <TextBlock x:Name="ratePerDistanceBlock" HorizontalAlignment="Left" Margin="486,174,0,0" Text="Rate (Distance$): " TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="124"/>
+        <TextBlock x:Name="businessNameBlock" HorizontalAlignment="Left" Margin="66,83,0,0" Text="Business: " TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="124" />
+        <TextBlock x:Name="phoneNumberBlock" HorizontalAlignment="Left" Margin="66,164,0,0" Text="Phone:" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="124"/>
+        <TextBlock x:Name="estimatedCostBlock" HorizontalAlignment="Left" Margin="902,168,0,0" Text="Estimated Cost ($): " TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="124"/>
+        <TextBox x:Name="phoneNumberText_Copy" HorizontalAlignment="Left" Margin="216,251,0,0" Text="(***)-***-****" VerticalAlignment="Top" Height="54" Width="242"/>
+        <TextBlock x:Name="phoneNumberBlock_Copy" HorizontalAlignment="Left" Margin="66,251,0,0" Text="Phone:" TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="124"/>
+
 
     </Grid>
 </Page>
